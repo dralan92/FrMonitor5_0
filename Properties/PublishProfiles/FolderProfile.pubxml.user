@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\user\source\repos\FrMonitor4_0\FrMonitor4_0\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2022-01-12T12:40:20.9279745Z;True|2022-01-10T00:41:20.4362164-05:00;True|2022-01-07T01:32:28.2422311-05:00;True|2022-01-06T11:34:55.3532097-05:00;True|2022-01-06T08:05:24.5086667-05:00;True|2022-01-06T07:51:13.7247141-05:00;True|2022-01-06T01:13:07.6384440-05:00;True|2022-01-05T17:30:04.6212175-05:00;True|2022-01-05T02:19:36.0252303-05:00;True|2022-01-04T03:14:24.9248346-05:00;True|2022-01-03T16:48:42.3801496-05:00;</History>
+  </PropertyGroup>
+</Project>

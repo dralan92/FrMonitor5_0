@@ -1,0 +1,12 @@
+WHEAT_USD last candle is COMPLETED
+H:7.366L:7.329O:7.361C:7.366
+ Last candle creation time : 2022-01-14 9:30:00 AM
+ Current time : 2022-01-14 9:35:22 AM
++++++++++++++++++++RED CUT++++++++++++++++++++++++
+
+EUR_GBP last candle is COMPLETED
+H:0.8355L:0.8351O:0.8352C:0.83544
+ Last candle creation time : 2022-01-14 9:40:00 AM
+ Current time : 2022-01-14 9:45:07 AM
++++++++++++++++++++RED CUT++++++++++++++++++++++++
+

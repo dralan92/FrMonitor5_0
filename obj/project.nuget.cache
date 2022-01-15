@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "4PyT1A6pE1eADrw9/j1Mz0wEPDzbKlLOoANW4ONV9Nm7BouPSk5QoGpj0Km9Vvs+3n29gVJIB6M5izroxwCRqg==",
+  "success": true,
+  "projectFilePath": "C:\\MyWork\\FrMonitor4_0-master\\FrMonitor4_0-master\\FrMonitor4_0.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\hangfire.aspnetcore\\1.7.28\\hangfire.aspnetcore.1.7.28.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\hangfire.core\\1.7.28\\hangfire.core.1.7.28.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\hangfire.memorystorage\\1.7.0\\hangfire.memorystorage.1.7.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\restsharp\\106.15.0\\restsharp.106.15.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

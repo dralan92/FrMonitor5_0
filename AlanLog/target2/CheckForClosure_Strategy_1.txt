@@ -1,0 +1,5 @@
+2022-01-14 5:20:16 AM | Checking for : XAU_USD 
+Trade Candle Time: 2022-01-14 5:15:00 AM
+Last Candle Time: 2022-01-14 5:15:00 AM
+SELL trade just got placed 
+======================================================

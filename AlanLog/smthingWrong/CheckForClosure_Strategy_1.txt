@@ -1,0 +1,5 @@
+2022-01-14 9:45:09 AM | Checking for : EUR_GBP 
+Trade Candle Time: 2022-01-14 9:40:00 AM
+Last Candle Time: 2022-01-14 9:40:00 AM
+BUY trade just got placed 
+======================================================

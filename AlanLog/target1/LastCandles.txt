@@ -1,0 +1,6 @@
+EUR_CHF last candle is COMPLETED
+H:1.04396L:1.04372O:1.04395C:1.04374
+ Last candle creation time : 2022-01-14 4:15:00 AM
+ Current time : 2022-01-14 4:20:19 AM
++++++++++++++++++++RED CUT++++++++++++++++++++++++
+
