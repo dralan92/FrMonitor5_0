@@ -97,12 +97,13 @@ namespace FrMonitor4_0.Services
                         else if(openPosition.PositionList.Count != alltrades.Count)
                         {
                             File.AppendAllText("AlanLog/OneTrade.txt", "Critical Error, number of trades in db does not match open position count!!! Close all trades and clear db " + DateTime.Now + "\n");
+                            File.AppendAllText("AlanLog/OneTrade.txt", "CANNOT TRADE!!!! You have OneTrade turned ON and have placed trades present in alanDb " + DateTime.Now + "\n");
 
                         }
-                        File.AppendAllText("AlanLog/OneTrade.txt", "CANNOT TRADE!!!! You have OneTrade turned ON and have placed trades present in alanDb " + DateTime.Now + "\n");
                     }
                 }
-                if (!_metaConfig.TargetReached && cantrade)
+                var targetReached = _metaDataService.IsTargetReached();
+                if ((!targetReached) && cantrade)
                 {
                     foreach (var instrument in instrumentList.Instruments)
                     {
@@ -153,7 +154,7 @@ namespace FrMonitor4_0.Services
 
         public void TargetCheck()
         {
-            var target = _metaConfig.Target;
+            var target = _metaDataService.GetTarget();
             var uri = _metaConfig.BaseUrl + "/v3/accounts/"+ _metaConfig.AccountNumber  + "/summary";
             var restClient = new RestClient(uri);
             var restRequest = new RestRequest();
@@ -169,7 +170,10 @@ namespace FrMonitor4_0.Services
                 message += "Target Met!!! Stopping Business...\n";
                 _metaDataService.SetTargetReached();
                 CloseAll();
-                UpdateTarget();
+                if (_metaConfig.OneTrade)
+                {
+                    UpdateTarget();
+                }
             }
             message += "=========================================\n";
             File.AppendAllText(@"AlanLog\TargetCheck.txt", DateTime.Now + " | " + message + Environment.NewLine);
@@ -188,6 +192,8 @@ namespace FrMonitor4_0.Services
         void UpdateTarget()
         {
             _targetUpdateService.UpdateTarget();
+            File.AppendAllText(@"AlanLog\TargetCheck.txt", DateTime.Now + " | " +"Target updated, new target is :"+_metaDataService.GetTarget() + Environment.NewLine);
+
         }
 
         double GetNav(IRestResponse restResponse)

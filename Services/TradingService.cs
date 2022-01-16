@@ -72,9 +72,10 @@ namespace FrMonitor4_0.Services
             if (_metaConfig.OneTrade)
             {
                 var nav = _navService.GetCurrentNav();
-                if(nav < _metaConfig.Target)
+                var target = _metaDataService.GetTarget();
+                if(nav < target)
                 {
-                    var amountToMakeUp = _metaConfig.Target - nav;
+                    var amountToMakeUp = target - nav;
                     var riskAmount = amountToMakeUp * (1 / _metaConfig.RequiredRr);
                     File.AppendAllText("AlanLog/OneTrade_RiskUpdates.txt", "Current Risk -->"+ riskAmount  + "\n");
 

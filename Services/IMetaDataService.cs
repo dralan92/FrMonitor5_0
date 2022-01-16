@@ -7,5 +7,7 @@ namespace FrMonitor4_0.Services
         MetaConfig GetMetaConfig();
 
         void SetTargetReached();
+        double GetTarget();
+        bool IsTargetReached();
     }
 }
