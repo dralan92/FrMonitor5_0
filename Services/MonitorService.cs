@@ -85,7 +85,7 @@ namespace FrMonitor4_0.Services
                     else
                     {
                         var openPosition = _tradingService.GetOpenPositions();
-                        if(openPosition.PositionList.Count == 0)
+                        if(openPosition.Positions.Count == 0)
                         {
                             File.AppendAllText("AlanLog/OneTrade.txt", "Remnant trade found in alanDb!!!! Removing it...." + DateTime.Now + "\n");
                             var remnanatTrades = _boxService.GetAllPlacedTrade();
@@ -94,7 +94,7 @@ namespace FrMonitor4_0.Services
                                 _boxService.DeletePlacedTrade(rt);
                             }
                         }
-                        else if(openPosition.PositionList.Count != alltrades.Count)
+                        else if(openPosition.Positions.Count != alltrades.Count)
                         {
                             File.AppendAllText("AlanLog/OneTrade.txt", "Critical Error, number of trades in db does not match open position count!!! Close all trades and clear db " + DateTime.Now + "\n");
                             File.AppendAllText("AlanLog/OneTrade.txt", "CANNOT TRADE!!!! You have OneTrade turned ON and have placed trades present in alanDb " + DateTime.Now + "\n");

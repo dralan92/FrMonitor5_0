@@ -135,13 +135,13 @@ namespace FrMonitor4_0.Models
 
     public class Position
     {
-        public string InstrumentName { get; set; }
+        public string instrument { get; set; }
 
     }
 
     public class OpenPositions
     {
-        public List<Position> PositionList { get; set; }
+        public List<Position> Positions { get; set; }
         public string LastTransactionId { get; set; }
 
 

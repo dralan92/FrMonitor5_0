@@ -226,7 +226,7 @@ namespace FrMonitor4_0.Services
 
         public OpenPositions GetOpenPositions()
         {
-            var restUri = _metaConfig.BaseUrl + "/v3/accounts/" + _metaConfig.AccountNumber + "/openpositions";
+            var restUri = _metaConfig.BaseUrl + "/v3/accounts/" + _metaConfig.AccountNumber + "/openPositions";
             var restClient = new RestClient(restUri);
             var restRequest = new RestRequest();
             restRequest.Method = RestSharp.Method.GET;
