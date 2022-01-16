@@ -1,0 +1,67 @@
+{
+  "id": 123,
+  "name": "Alan Sebastian",
+  "address": {
+    "street": "El Camino Real",
+    "city": "New Delhi",
+    "zipcode": 95014
+  },
+  "instruments": [
+    {
+      "name": "EUR_USD",
+      "top": "1.23",
+      "bottom": "1.34",
+      "action": "SELL",
+      "activated": false
+    },
+    {
+      "name": "NZD_USD",
+      "top": "1.23",
+      "bottom": "1.34",
+      "action": "SELL",
+      "activated": false
+    }
+  ],
+  "harmonicPatternDPoints": [
+    {
+      "Name": "ABC_USD",
+      "dTime": "abcd",
+      "Look4": "buy"
+    }
+  ],
+  "sequences": [
+    {
+      "Name": "ABC_USD",
+      "Time0": "aaaaa",
+      "Time1": "aaaaa",
+      "Time2": "aaaaa",
+      "Time3": "aaaaa",
+      "Time4": "aaaaa",
+      "ReactionBoxTop": 1.2,
+      "ReactionBoxBottom": 2.4,
+      "Look4": "sell"
+    }
+  ],
+  "quaters": [
+    {
+      "name": "EUR_USD",
+      "values": [
+        1.14,
+        1.145,
+        1.15,
+        1.155,
+        1.16,
+        1.165,
+        1.17,
+        1.175,
+        1.18,
+        1.185
+      ]
+    }
+  ],
+  "placedTrades": [
+   
+  ],
+  "phoneNumber": 9988664422,
+  "role": "Developer"
+}

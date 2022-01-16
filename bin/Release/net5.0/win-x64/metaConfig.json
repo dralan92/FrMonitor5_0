@@ -10,5 +10,6 @@
   "RiskAmount": 50.0,
   "RequiredRr": 0.4,
   "Target": 11626.0,
-  "StrategyNumber": 1
+  "StrategyNumber": 1,
+  "OneTradeGain": 5
 }

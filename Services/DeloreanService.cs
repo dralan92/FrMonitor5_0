@@ -13,13 +13,18 @@ namespace FrMonitor4_0.Services
         IUtilityService _utilityService;
         ITradingService _tradingService;
         IBoxService _boxService;
-        public DeloreanService(IEmaService emaService, IUtilityService utilityService, ITradingService tradingService, IBoxService boxService)
+        IMetaDataService _metaDataService;
+        MetaConfig _metaConfig;
+        public DeloreanService(IEmaService emaService, IUtilityService utilityService, ITradingService tradingService, IBoxService boxService,
+            IMetaDataService metaDataService)
         {
             _strategyNumber = 1;
             _emaService = emaService;
             _utilityService = utilityService;
             _tradingService = tradingService;
             _boxService = boxService;
+            _metaDataService = metaDataService;
+            _metaConfig = _metaDataService.GetMetaConfig();
         }
 
         double GetEmaDistance(Candle candle, double ema)
@@ -115,7 +120,7 @@ namespace FrMonitor4_0.Services
         {
             try
             {
-                if (TimeRight())
+                if (TimeRight() || _metaConfig.OneTrade)
                 {
                     var closeList = candles.Select(c => c.Mid.C).ToList();
 
