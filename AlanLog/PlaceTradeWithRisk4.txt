@@ -1,0 +1,28 @@
+AUD_USD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00012000000000000899
+ Spread pips:1.2
+ FS Risk:5.0000000000005596
+ pipVal:0.0001
+ TP:0.72014
+ E:0.72039
+ SL:0.72077
+ Risk to Spread ratio:3.17
+ Risk to Stick ratio:3.06
+ Units for the trade:20470
+
+GBP_AUD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00031000000000003247
+ Spread pips:3.1
+ FS Risk:10.099999999999554
+ pipVal:0.0001
+ TP:1.8986
+ E:1.89811
+ SL:1.89741
+ Risk to Spread ratio:2.26
+ Risk to Stick ratio:3.03
+ Units for the trade:22507.1
+

@@ -47,102 +47,110 @@ namespace FrMonitor4_0.Services
         }
         public void Monitor(int timeframe)
         {
-            File.AppendAllText("AlanLog/RunCheck.txt", timeframe + " min check :" + DateTime.Now);
-            Thread.Sleep(500);
-            object instrumentListObj = null;
-            instrumentListObj = _instrumentService.GetInstrumentList();
-
-            var instrumentList = (InstrumentList)instrumentListObj;
-
-            if (_metaConfig.RiskCalculationMode)
+            try
             {
+                File.AppendAllText("AlanLog/RunCheck_"+ timeframe + ".txt", timeframe + " min check :" + DateTime.Now);
+                Thread.Sleep(500);
+                object instrumentListObj = null;
+                instrumentListObj = _instrumentService.GetInstrumentList();
 
-                Console.WriteLine("Instrument Name: \n");
-                var iname = Console.ReadLine();
-                foreach (var instrument in instrumentList.Instruments)
-                {
-                    if (instrument.Name == iname)
-                    {
-                        var units = _riskCalculationService.CalculateUnits(instrument);
-                        var lots = units / 100000;
-                        Console.WriteLine("UNITS-->" + units + "\n" + "LOTS-->" + lots + "\n");
-                    }
-                }
-            }
-            else
-            {
-                bool cantrade = true;
-                if (_metaConfig.OneTrade)
-                {
-                    cantrade = false;
-                    var alltrades = _boxService.GetAllPlacedTrade();
-                    if (alltrades.Count == 0)
-                    {
-                        cantrade = true;
-                        File.AppendAllText("AlanLog/OneTrade.txt", "READY TO TRADE!!! No Placed Trade For Now in db " + DateTime.Now + "\n");
+                var instrumentList = (InstrumentList)instrumentListObj;
 
-                    }
-                    else
-                    {
-                        var openPosition = _tradingService.GetOpenPositions();
-                        if(openPosition.Positions.Count == 0)
-                        {
-                            File.AppendAllText("AlanLog/OneTrade.txt", "Remnant trade found in alanDb!!!! Removing it...." + DateTime.Now + "\n");
-                            var remnanatTrades = _boxService.GetAllPlacedTrade();
-                            foreach(var rt in remnanatTrades)
-                            {
-                                _boxService.DeletePlacedTrade(rt);
-                            }
-                        }
-                        else if(openPosition.Positions.Count != alltrades.Count)
-                        {
-                            File.AppendAllText("AlanLog/OneTrade.txt", "Critical Error, number of trades in db does not match open position count!!! Close all trades and clear db " + DateTime.Now + "\n");
-                            File.AppendAllText("AlanLog/OneTrade.txt", "CANNOT TRADE!!!! You have OneTrade turned ON and have placed trades present in alanDb " + DateTime.Now + "\n");
-
-                        }
-                    }
-                }
-                var targetReached = _metaDataService.IsTargetReached();
-                if ((!targetReached) && cantrade)
+                if (_metaConfig.RiskCalculationMode)
                 {
+
+                    Console.WriteLine("Instrument Name: \n");
+                    var iname = Console.ReadLine();
                     foreach (var instrument in instrumentList.Instruments)
                     {
-
-                        if (_itemsToMonitor.Contains(instrument.Name))
+                        if (instrument.Name == iname)
                         {
-                            var candleList = _candleService.GetCandles(instrument.Name, timeframe, 2001);
-                           
-                            if (_metaConfig.StrategyNumber == 1)
+                            var units = _riskCalculationService.CalculateUnits(instrument);
+                            var lots = units / 100000;
+                            Console.WriteLine("UNITS-->" + units + "\n" + "LOTS-->" + lots + "\n");
+                        }
+                    }
+                }
+                else
+                {
+                    bool cantrade = true;
+                    if (_metaConfig.OneTrade)
+                    {
+                        cantrade = false;
+                        var alltrades = _boxService.GetAllPlacedTrade();
+                        if (alltrades.Count == 0)
+                        {
+                            cantrade = true;
+                            File.AppendAllText("AlanLog/OneTrade.txt", "READY TO TRADE!!! No Placed Trade For Now in db " + DateTime.Now + "\n");
+
+                        }
+                        else
+                        {
+                            var openPosition = _tradingService.GetOpenPositions();
+                            if (openPosition.Positions.Count == 0)
                             {
-                                _deloreanService.CheckForEntry(instrument, timeframe, candleList);
-                                _deloreanService.CheckForExit(instrument, timeframe, candleList);
+                                File.AppendAllText("AlanLog/OneTrade.txt", "Remnant trade found in alanDb!!!! Removing it...." + DateTime.Now + "\n");
+                                var remnanatTrades = _boxService.GetAllPlacedTrade();
+                                foreach (var rt in remnanatTrades)
+                                {
+                                    _boxService.DeletePlacedTrade(rt);
+                                }
                             }
-
-                            if (_metaConfig.StrategyNumber == 2)
+                            else if (openPosition.Positions.Count != alltrades.Count)
                             {
-                                _harmonicService.CheckForEntry(instrument, timeframe, candleList);
-                                _harmonicService.CheckForExit(instrument, timeframe, candleList);
+                                File.AppendAllText("AlanLog/OneTrade.txt", "Critical Error, number of trades in db does not match open position count!!! Close all trades and clear db " + DateTime.Now + "\n");
+                                File.AppendAllText("AlanLog/OneTrade.txt", "CANNOT TRADE!!!! You have OneTrade turned ON and have placed trades present in alanDb " + DateTime.Now + "\n");
 
                             }
+                        }
+                    }
+                    var targetReached = _metaDataService.IsTargetReached();
+                    if ((!targetReached) && cantrade)
+                    {
+                        foreach (var instrument in instrumentList.Instruments)
+                        {
 
-                            if (_metaConfig.StrategyNumber == 3)
+                            if (_itemsToMonitor.Contains(instrument.Name))
                             {
-                                _emaCrossService.CheckForEntry(instrument, timeframe, candleList);
-                                _emaCrossService.CheckForExit(instrument, timeframe, candleList);
-                            }
+                                var candleList = _candleService.GetCandles(instrument.Name, timeframe, 2001);
 
-                            if (_metaConfig.StrategyNumber == 4)
-                            {
-                                _bollingerRisHfxService.CheckForEntry(instrument, timeframe, candleList);
+                                if (_metaConfig.StrategyNumber == 1)
+                                {
+                                    _deloreanService.CheckForEntry(instrument, timeframe, candleList);
+                                    _deloreanService.CheckForExit(instrument, timeframe, candleList);
+                                }
+
+                                if (_metaConfig.StrategyNumber == 2)
+                                {
+                                    _harmonicService.CheckForEntry(instrument, timeframe, candleList);
+                                    _harmonicService.CheckForExit(instrument, timeframe, candleList);
+
+                                }
+
+                                if (_metaConfig.StrategyNumber == 3)
+                                {
+                                    _emaCrossService.CheckForEntry(instrument, timeframe, candleList);
+                                    _emaCrossService.CheckForExit(instrument, timeframe, candleList);
+                                }
+
+                                if (_metaConfig.StrategyNumber == 4)
+                                {
+                                    _bollingerRisHfxService.CheckForEntry(instrument, timeframe, candleList);
+                                }
+
                             }
 
                         }
 
+
                     }
-
-
                 }
             }
+            catch(Exception ex)
+            {
+                File.AppendAllText("AlanLog/Exception.txt",DateTime.Now + "exception happened \n");
+            }
+            
             
         }
 
@@ -165,7 +173,7 @@ namespace FrMonitor4_0.Services
             var response = restClient.Execute(restRequest);
             var nav = GetNav(response);
             var message = "NAV-->" + nav + " |  " + "TARGET -->" + target + "\n";
-            if (nav >= target)
+            if (nav >= target || ((target-nav) < _metaConfig.OneTradeGain))
             {
                 message += "Target Met!!! Stopping Business...\n";
                 _metaDataService.SetTargetReached();

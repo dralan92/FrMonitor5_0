@@ -120,7 +120,7 @@ namespace FrMonitor4_0.Services
         {
             try
             {
-                if (TimeRight() || _metaConfig.OneTrade)
+                if (TimeRight())
                 {
                     var closeList = candles.Select(c => c.Mid.C).ToList();
 

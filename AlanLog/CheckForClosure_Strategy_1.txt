@@ -1,0 +1,10 @@
+2022-01-17 1:00:37 AM | Checking for : AUD_USD 
+Trade Candle Time: 2022-01-17 12:55:00 AM
+Last Candle Time: 2022-01-17 12:55:00 AM
+SELL trade just got placed 
+======================================================
+2022-01-17 1:30:32 AM | Checking for : AUD_JPY 
+Trade Candle Time: 2022-01-17 1:25:00 AM
+Last Candle Time: 2022-01-17 1:25:00 AM
+BUY trade just got placed 
+======================================================

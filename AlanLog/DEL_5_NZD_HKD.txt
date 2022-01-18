@@ -1,0 +1,18 @@
+----------CASE2: BTS--------------
+BUY NZD_HKD|BR:1.65|RLC:0.45|50EMA:0.95|200EMA:-6.06|800EMA:-22.69|2022-01-17 2:05:31 AM
+{1.4296777859821317|1.1556562103363766|0.7386668560903977|++0.27402157564681334|0.45273129889418295++}
+
+NZD_HKD
+ MTS:1
+ AvailableUnits:unknown
+ Spread :0.0018299999999999983
+ Spread pips:18.3
+ FS Risk:30.09999999999735
+ Reward:47.10000000000214
+ pipVal:0.0001
+ Risk to Spread ratio:0.64
+ Risk to Stick ratio:1.41
+ Units for the trade:324469.5
+NZD_HKD|TP:5.29878|SL:5.2961|Pu:324470|Entry:5.29728
+Last Candle Creation time : 2022-01-17 2:00:00 AM| Current Time : 2022-01-17 2:05:34 AM
+***************TRADE PLACED***************

@@ -1,4 +1,5 @@
 ﻿using FrMonitor4_0.Models;
+using Newtonsoft.Json.Linq;
 using System.IO;
 
 namespace FrMonitor4_0.Services
@@ -34,7 +35,8 @@ namespace FrMonitor4_0.Services
 
         void UpdateMetaData(MetaConfig newMetaConfig)
         {
-            string newResut = Newtonsoft.Json.JsonConvert.SerializeObject(newMetaConfig.ToString(), Newtonsoft.Json.Formatting.Indented);
+            var newMetaConfigObj = JObject.Parse(Newtonsoft.Json.JsonConvert.SerializeObject(newMetaConfig));
+            string newResut = Newtonsoft.Json.JsonConvert.SerializeObject(newMetaConfigObj, Newtonsoft.Json.Formatting.Indented);
             File.WriteAllText(_metaFile, newResut);
         }
     }

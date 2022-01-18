@@ -1,0 +1,4 @@
+Current Risk -->10.234999999997854
+Current Risk -->16.376000000000204
+Current Risk -->36.84600000000046
+Current Risk -->125.41325000000143

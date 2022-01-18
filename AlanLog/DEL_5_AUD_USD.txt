@@ -1,0 +1,20 @@
+----------CASE2: Trend is Friend--------------
+SELL AUD_USD|BR:1.5|RLC:1.69|50EMA:1.37|200EMA:11.22|800EMA:29.38||Aqua Grey Gap:9.850000000000001|Grey Blue Gap:18.159999999999997|2022-01-17 1:00:35 AM
+{1.2866648176482793|0.08041655110351967|0.6433324088245861|++1.125831715442133|1.6887475731631993++}
+
+AUD_USD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00012000000000000899
+ Spread pips:1.2
+ FS Risk:5.0000000000005596
+ pipVal:0.0001
+ TP:0.72014
+ E:0.72039
+ SL:0.72077
+ Risk to Spread ratio:3.17
+ Risk to Stick ratio:3.06
+ Units for the trade:20470
+AUD_USD|TP:0.72014|SL:0.72077|Pu:-20470|Entry:0.72039
+Last Candle Creation time : 2022-01-17 12:55:00 AM| Current Time : 2022-01-17 1:00:36 AM
+***************TRADE PLACED***************

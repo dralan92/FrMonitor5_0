@@ -109,7 +109,7 @@ namespace FrMonitor4_0.Services
         double CalculateTpRiskAccurate(bool isLong, Instrument instrument, double lastClose, double risk)
         {
             var pipValue = GetPipValue(instrument);
-            var tpLength = pipValue * risk * 0.5;
+            var tpLength = pipValue * risk * _metaConfig.RequiredRr;
 
             if (isLong)
             {
@@ -301,7 +301,7 @@ namespace FrMonitor4_0.Services
                             " Units for the trade:" + units + "\n"
                             ;
 
-                        var neededRrr = 0.4;
+                        var neededRrr = 1;
                         //if (spread * 2 < risk)
                         {
                             if (reward / fullSpreadRisk >= neededRrr || neededRrr == 0)

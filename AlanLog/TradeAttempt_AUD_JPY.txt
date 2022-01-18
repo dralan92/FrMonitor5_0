@@ -1,0 +1,3 @@
+ FS Risk:4.600000000000648 Reward:31.30000000000024
+ AvailableUnits:unknown
+ Units for the trade:91707.3

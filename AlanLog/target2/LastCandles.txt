@@ -1,6 +1,0 @@
-XAU_USD last candle is COMPLETED
-H:1824.11L:1822.675O:1824.11C:1822.695
- Last candle creation time : 2022-01-14 5:15:00 AM
- Current time : 2022-01-14 5:20:14 AM
-+++++++++++++++++++RED CUT++++++++++++++++++++++++
-
