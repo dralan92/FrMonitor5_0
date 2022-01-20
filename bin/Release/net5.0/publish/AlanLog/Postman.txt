@@ -1,0 +1,143 @@
+{"order": {
+    "units": "-14803",
+    "instrument": "EUR_AUD",
+    "timeInForce": "FOK",
+    "type": "MARKET",
+    "takeProfitOnFill":{"price":"1.56884"},
+    "stopLossOnFill" :{"price":"1.57162"},
+    "positionFill": "DEFAULT"
+  }
+}
+https://api-fxpractice.oanda.com/v3/accounts/101-002-14835452-020/orders
+Bearer 551cb19f4a836f950717a0202b8dde87-adad3a86ed84c81861f9b947c435220c
+101-002-14835452-020
+{"order": {
+    "units": "-2294",
+    "instrument": "NZD_USD",
+    "timeInForce": "FOK",
+    "type": "MARKET",
+    "takeProfitOnFill":{"price":"0.6768"},
+    "stopLossOnFill" :{"price":"0.67814"},
+    "positionFill": "DEFAULT"
+  }
+}
+https://api-fxpractice.oanda.com/v3/accounts/101-002-14835452-020/orders
+Bearer 551cb19f4a836f950717a0202b8dde87-adad3a86ed84c81861f9b947c435220c
+101-002-14835452-020
+{"order": {
+    "units": "-7950",
+    "instrument": "NZD_CAD",
+    "timeInForce": "FOK",
+    "type": "MARKET",
+    "takeProfitOnFill":{"price":"0.84568"},
+    "stopLossOnFill" :{"price":"0.8471"},
+    "positionFill": "DEFAULT"
+  }
+}
+https://api-fxpractice.oanda.com/v3/accounts/101-002-14835452-020/orders
+Bearer 551cb19f4a836f950717a0202b8dde87-adad3a86ed84c81861f9b947c435220c
+101-002-14835452-020
+{"order": {
+    "units": "-0.7",
+    "instrument": "CN50_USD",
+    "timeInForce": "FOK",
+    "type": "MARKET",
+    "takeProfitOnFill":{"price":"15567.3"},
+    "stopLossOnFill" :{"price":"15610.5"},
+    "positionFill": "DEFAULT"
+  }
+}
+https://api-fxpractice.oanda.com/v3/accounts/101-002-14835452-020/orders
+Bearer 551cb19f4a836f950717a0202b8dde87-adad3a86ed84c81861f9b947c435220c
+101-002-14835452-020
+{"order": {
+    "units": "-70584",
+    "instrument": "NZD_USD",
+    "timeInForce": "FOK",
+    "type": "MARKET",
+    "takeProfitOnFill":{"price":"0.67834"},
+    "stopLossOnFill" :{"price":"0.67978"},
+    "positionFill": "DEFAULT"
+  }
+}
+https://api-fxpractice.oanda.com/v3/accounts/101-002-14835452-020/orders
+Bearer 551cb19f4a836f950717a0202b8dde87-adad3a86ed84c81861f9b947c435220c
+101-002-14835452-020
+{"order": {
+    "units": "-319796",
+    "instrument": "AUD_NZD",
+    "timeInForce": "FOK",
+    "type": "MARKET",
+    "takeProfitOnFill":{"price":"1.06836"},
+    "stopLossOnFill" :{"price":"1.06971"},
+    "positionFill": "DEFAULT"
+  }
+}
+https://api-fxpractice.oanda.com/v3/accounts/101-002-14835452-020/orders
+Bearer 551cb19f4a836f950717a0202b8dde87-adad3a86ed84c81861f9b947c435220c
+101-002-14835452-020
+{"order": {
+    "units": "-6",
+    "instrument": "CN50_USD",
+    "timeInForce": "FOK",
+    "type": "MARKET",
+    "takeProfitOnFill":{"price":"15601.7"},
+    "stopLossOnFill" :{"price":"15657.5"},
+    "positionFill": "DEFAULT"
+  }
+}
+https://api-fxpractice.oanda.com/v3/accounts/101-002-14835452-020/orders
+Bearer 551cb19f4a836f950717a0202b8dde87-adad3a86ed84c81861f9b947c435220c
+101-002-14835452-020
+{"order": {
+    "units": "-146896",
+    "instrument": "GBP_USD",
+    "timeInForce": "FOK",
+    "type": "MARKET",
+    "takeProfitOnFill":{"price":"1.36372"},
+    "stopLossOnFill" :{"price":"1.36621"},
+    "positionFill": "DEFAULT"
+  }
+}
+https://api-fxpractice.oanda.com/v3/accounts/101-002-14835452-020/orders
+Bearer 551cb19f4a836f950717a0202b8dde87-adad3a86ed84c81861f9b947c435220c
+101-002-14835452-020
+{"order": {
+    "units": "-1.5",
+    "instrument": "EU50_EUR",
+    "timeInForce": "FOK",
+    "type": "MARKET",
+    "takeProfitOnFill":{"price":"4287.5"},
+    "stopLossOnFill" :{"price":"4304.9"},
+    "positionFill": "DEFAULT"
+  }
+}
+https://api-fxpractice.oanda.com/v3/accounts/101-002-14835452-020/orders
+Bearer 551cb19f4a836f950717a0202b8dde87-adad3a86ed84c81861f9b947c435220c
+101-002-14835452-020
+{"order": {
+    "units": "2514",
+    "instrument": "GBP_CAD",
+    "timeInForce": "FOK",
+    "type": "MARKET",
+    "takeProfitOnFill":{"price":"1.69934"},
+    "stopLossOnFill" :{"price":"1.69781"},
+    "positionFill": "DEFAULT"
+  }
+}
+https://api-fxpractice.oanda.com/v3/accounts/101-002-14835452-020/orders
+Bearer 551cb19f4a836f950717a0202b8dde87-adad3a86ed84c81861f9b947c435220c
+101-002-14835452-020
+{"order": {
+    "units": "17142",
+    "instrument": "EUR_USD",
+    "timeInForce": "FOK",
+    "type": "MARKET",
+    "takeProfitOnFill":{"price":"1.1321"},
+    "stopLossOnFill" :{"price":"1.13148"},
+    "positionFill": "DEFAULT"
+  }
+}
+https://api-fxpractice.oanda.com/v3/accounts/101-002-14835452-020/orders
+Bearer 551cb19f4a836f950717a0202b8dde87-adad3a86ed84c81861f9b947c435220c
+101-002-14835452-020

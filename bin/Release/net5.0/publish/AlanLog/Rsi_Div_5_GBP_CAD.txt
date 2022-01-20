@@ -1,0 +1,16 @@
+GBP_CAD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00021000000000004349
+ Spread pips:2.1
+ FS Risk:12.399999999999078
+ pipVal:0.0001
+ TP:1.69934
+ E:1.69884
+ SL:1.69781
+ Risk to Spread ratio:4.9
+ Risk to Stick ratio:3.76
+ Units for the trade:2514.3
+GBP_CAD|TP:1.69934|SL:1.69781|Pu:2514|Entry:1.69884
+Last Candle Creation time : 2022-01-20 2:20:00 PM| Current Time : 2022-01-20 2:25:40 PM
+***************TRADE PLACED***************

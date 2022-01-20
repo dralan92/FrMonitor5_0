@@ -1,0 +1,16 @@
+AUD_NZD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00045999999999990493
+ Spread pips:4.6
+ FS Risk:12.899999999997913
+ pipVal:0.0001
+ TP:1.06836
+ E:1.06888
+ SL:1.06971
+ Risk to Spread ratio:1.8
+ Risk to Stick ratio:6.09
+ Units for the trade:319796.4
+AUD_NZD|TP:1.06836|SL:1.06971|Pu:-319796|Entry:1.06888
+Last Candle Creation time : 2022-01-20 11:05:00 AM| Current Time : 2022-01-20 11:10:18 AM
+***************TRADE PLACED***************

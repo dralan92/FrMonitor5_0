@@ -1,0 +1,16 @@
+AUD_CAD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00017000000000000348
+ Spread pips:1.7
+ FS Risk:9.900000000000464
+ pipVal:0.0001
+ TP:0.90362
+ E:0.90322
+ SL:0.9024
+ Risk to Spread ratio:4.82
+ Risk to Stick ratio:5.05
+ Units for the trade:3007.9
+AUD_CAD|TP:0.90362|SL:0.9024|Pu:3008|Entry:0.90322
+Last Candle Creation time : 2022-01-20 2:20:00 AM| Current Time : 2022-01-20 2:25:43 AM
+***************TRADE PLACED***************

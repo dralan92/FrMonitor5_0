@@ -1,0 +1,16 @@
+NZD_HKD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.0020400000000000418
+ Spread pips:20.4
+ FS Risk:87.09999999999773
+ pipVal:0.0001
+ TP:5.27263
+ E:5.26915
+ SL:5.26248
+ Risk to Spread ratio:3.27
+ Risk to Stick ratio:6.06
+ Units for the trade:3372.1
+NZD_HKD|TP:5.27263|SL:5.26248|Pu:3372|Entry:5.26915
+Last Candle Creation time : 2022-01-20 1:15:00 AM| Current Time : 2022-01-20 1:20:35 AM
+***************TRADE PLACED***************

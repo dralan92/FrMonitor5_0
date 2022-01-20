@@ -1,0 +1,16 @@
+AUD_CHF
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00024999999999997247
+ Spread pips:2.5
+ FS Risk:10.499999999999954
+ pipVal:0.0001
+ TP:0.6624
+ E:0.66198
+ SL:0.66118
+ Risk to Spread ratio:3.2
+ Risk to Stick ratio:6.04
+ Units for the trade:10263.4
+AUD_CHF|TP:0.6624|SL:0.66118|Pu:10263|Entry:0.66198
+Last Candle Creation time : 2022-01-20 1:15:00 AM| Current Time : 2022-01-20 1:20:43 AM
+***************TRADE PLACED***************

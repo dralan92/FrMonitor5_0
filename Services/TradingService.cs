@@ -37,6 +37,8 @@ namespace FrMonitor4_0.Services
                 return "BB_B_E";
             if (sNo == 3)
                 return "EMA_Cross";
+            if (sNo == 5)
+                return "Rsi_Div";
             if (sNo == 30)
                 return "US30_Strategy";
             return "";

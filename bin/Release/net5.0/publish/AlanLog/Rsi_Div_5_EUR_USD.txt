@@ -1,0 +1,16 @@
+EUR_USD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00013999999999980695
+ Spread pips:1.4
+ FS Risk:5.299999999996974
+ pipVal:0.0001
+ TP:1.1321
+ E:1.13187
+ SL:1.13148
+ Risk to Spread ratio:2.79
+ Risk to Stick ratio:2.15
+ Units for the trade:17141.5
+EUR_USD|TP:1.1321|SL:1.13148|Pu:17142|Entry:1.13187
+Last Candle Creation time : 2022-01-20 3:20:00 PM| Current Time : 2022-01-20 3:25:36 PM
+***************TRADE PLACED***************

@@ -1,0 +1,16 @@
+NZD_SGD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00042000000000008697
+ Spread pips:4.2
+ FS Risk:13.800000000000479
+ pipVal:0.0001
+ TP:0.91166
+ E:0.91111
+ SL:0.91015
+ Risk to Spread ratio:2.29
+ Risk to Stick ratio:5.69
+ Units for the trade:6076.6
+NZD_SGD|TP:0.91166|SL:0.91015|Pu:6077|Entry:0.91111
+Last Candle Creation time : 2022-01-20 1:15:00 AM| Current Time : 2022-01-20 1:20:40 AM
+***************TRADE PLACED***************

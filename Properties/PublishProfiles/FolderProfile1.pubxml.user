@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\MyWork\FrMonitor4_0-master\FrMonitor4_0-master\bin\Release\net5.0\publish\</_PublishTargetUrl>
-    <History>True|2022-01-18T07:58:12.7418126Z;True|2022-01-17T07:01:22.4410544-05:00;True|2022-01-17T02:16:49.1579022-05:00;True|2022-01-16T13:49:48.3238599-05:00;True|2022-01-14T14:55:13.8099854-05:00;True|2022-01-14T14:41:13.6091678-05:00;</History>
+    <History>True|2022-01-20T06:55:31.9131790Z;True|2022-01-18T17:09:16.7747840-05:00;True|2022-01-18T05:01:31.5000779-05:00;True|2022-01-18T02:58:12.7418126-05:00;True|2022-01-17T07:01:22.4410544-05:00;True|2022-01-17T02:16:49.1579022-05:00;True|2022-01-16T13:49:48.3238599-05:00;True|2022-01-14T14:55:13.8099854-05:00;True|2022-01-14T14:41:13.6091678-05:00;</History>
   </PropertyGroup>
 </Project>

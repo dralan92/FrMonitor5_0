@@ -1,0 +1,16 @@
+EU50_EUR
+ MTS:0.1
+ AvailableUnits:Unknown
+ Spread:1.4000000000005457
+ Spread pips:14
+ FS Risk:134.00000000000546
+ pipVal:0.1
+ TP:4287.5
+ E:4292.9
+ SL:4304.9
+ Risk to Spread ratio:8.57
+ Risk to Stick ratio:7.39
+ Units for the trade:1.5
+EU50_EUR|TP:4287.5|SL:4304.9|Pu:-1.5|Entry:4292.9
+Last Candle Creation time : 2022-01-20 1:30:00 PM| Current Time : 2022-01-20 1:40:14 PM
+***************TRADE PLACED***************

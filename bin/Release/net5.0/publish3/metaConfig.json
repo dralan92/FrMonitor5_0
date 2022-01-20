@@ -9,7 +9,7 @@
   "RiskCalculationMode": false,
   "RiskAmount": 50.0,
   "RequiredRr": 0.4,
-  "Target": 11626.0,
-  "StrategyNumber": 1,
-  "OneTradeGain": 5
+  "Target": 11594.70,
+  "StrategyNumber": 5,
+  "OneTradeGain": 1
 }

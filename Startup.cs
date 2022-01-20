@@ -47,6 +47,7 @@ namespace FrMonitor4_0
             services.AddTransient<IBollingerRisHfxService, BollingerRisHfxService>();
             services.AddTransient<INavService, NavService>();
             services.AddTransient<ITargetUpdateService, TargetUpdateService>();
+            services.AddTransient<IRsiDivergenceService, RsiDivergenceService>();
 
         }
 

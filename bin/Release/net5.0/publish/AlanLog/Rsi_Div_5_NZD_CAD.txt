@@ -1,0 +1,16 @@
+NZD_CAD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00031999999999998696
+ Spread pips:3.2
+ FS Risk:12.399999999999078
+ pipVal:0.0001
+ TP:0.84568
+ E:0.84618
+ SL:0.8471
+ Risk to Spread ratio:2.87
+ Risk to Stick ratio:5.72
+ Units for the trade:7949.8
+NZD_CAD|TP:0.84568|SL:0.8471|Pu:-7950|Entry:0.84618
+Last Candle Creation time : 2022-01-20 6:55:00 AM| Current Time : 2022-01-20 7:00:27 AM
+***************TRADE PLACED***************

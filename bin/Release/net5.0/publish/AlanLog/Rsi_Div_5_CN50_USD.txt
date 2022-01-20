@@ -1,0 +1,32 @@
+CN50_USD
+ MTS:0.1
+ AvailableUnits:Unknown
+ Spread:10
+ Spread pips:100
+ FS Risk:380
+ pipVal:0.1
+ TP:15567.3
+ E:15582.5
+ SL:15610.5
+ Risk to Spread ratio:2.8
+ Risk to Stick ratio:6.17
+ Units for the trade:0.7
+CN50_USD|TP:15567.3|SL:15610.5|Pu:-0.7|Entry:15582.5
+Last Candle Creation time : 2022-01-20 9:35:00 AM| Current Time : 2022-01-20 9:40:06 AM
+***************TRADE PLACED***************
+CN50_USD
+ MTS:0.1
+ AvailableUnits:Unknown
+ Spread:10
+ Spread pips:100
+ FS Risk:470
+ pipVal:0.1
+ TP:15601.7
+ E:15620.5
+ SL:15657.5
+ Risk to Spread ratio:3.7
+ Risk to Stick ratio:6.61
+ Units for the trade:6
+CN50_USD|TP:15601.7|SL:15657.5|Pu:-6|Entry:15620.5
+Last Candle Creation time : 2022-01-20 11:20:00 AM| Current Time : 2022-01-20 11:25:09 AM
+***************TRADE PLACED***************

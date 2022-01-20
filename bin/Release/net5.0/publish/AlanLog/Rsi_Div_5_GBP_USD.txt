@@ -1,0 +1,16 @@
+GBP_USD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.000180000000000069
+ Spread pips:1.8
+ FS Risk:19.100000000000783
+ pipVal:0.0001
+ TP:1.36372
+ E:1.36448
+ SL:1.36621
+ Risk to Spread ratio:9.61
+ Risk to Stick ratio:6.23
+ Units for the trade:146895.7
+GBP_USD|TP:1.36372|SL:1.36621|Pu:-146896|Entry:1.36448
+Last Candle Creation time : 2022-01-20 11:35:00 AM| Current Time : 2022-01-20 11:40:10 AM
+***************TRADE PLACED***************

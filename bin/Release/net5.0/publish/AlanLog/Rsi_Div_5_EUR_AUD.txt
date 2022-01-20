@@ -1,0 +1,16 @@
+EUR_AUD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.000220000000000109
+ Spread pips:2.2
+ FS Risk:21.400000000000308
+ pipVal:0.0001
+ TP:1.56884
+ E:1.5697
+ SL:1.57162
+ Risk to Spread ratio:8.73
+ Risk to Stick ratio:6.76
+ Units for the trade:14802.8
+EUR_AUD|TP:1.56884|SL:1.57162|Pu:-14803|Entry:1.5697
+Last Candle Creation time : 2022-01-20 2:35:00 AM| Current Time : 2022-01-20 2:41:02 AM
+***************TRADE PLACED***************

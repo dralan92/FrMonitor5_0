@@ -313,6 +313,7 @@ namespace FrMonitor4_0.Services
 
         public void CheckForExit(Instrument instrument, int timeframe, List<Candle> candles)
         {
+            File.AppendAllText("AlanLog/MonitorPlacedTrade.txt", DateTime.Now + "Checking for exit for " + instrument.Name + " for timeframe " + timeframe + "\n");
             var placedTrade = _boxService.GetPlacedTrade(instrument.Name, timeframe);
             if (placedTrade.Count() > 0)
             {
@@ -325,14 +326,19 @@ namespace FrMonitor4_0.Services
 
 
             }
+            File.AppendAllText("AlanLog/MonitorPlacedTrade.txt",  "===========================================================\n");
         }
 
         void CheckForClosure(List<PlacedTrade> placedTrades, Instrument instrument, List<Candle> candles)
         {
+            File.AppendAllText("AlanLog/MonitorPlacedTrade.txt", "Inside CheckForClosure() \n");
+
             foreach (var pt in placedTrades)
             {
                 if (pt.StrategyNo == 1)
                 {
+                    File.AppendAllText("AlanLog/MonitorPlacedTrade.txt", "if (pt.StrategyNo == 1) \n");
+
                     CheckForClosure_Strategy_1(pt, instrument, candles);
                 }
             }
@@ -340,7 +346,8 @@ namespace FrMonitor4_0.Services
 
         void CheckForClosure_Strategy_1(PlacedTrade placedTrade, Instrument instrument, List<Candle> candles)
         {
-           
+            File.AppendAllText("AlanLog/MonitorPlacedTrade.txt", "Inside CheckForClosure_Strategy_1() \n");
+
 
             var closeList = candles.Select(c => c.Mid.C).ToList();
 

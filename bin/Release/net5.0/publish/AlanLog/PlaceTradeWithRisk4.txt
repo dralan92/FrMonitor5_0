@@ -1,0 +1,154 @@
+EUR_AUD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.000220000000000109
+ Spread pips:2.2
+ FS Risk:21.400000000000308
+ pipVal:0.0001
+ TP:1.56884
+ E:1.5697
+ SL:1.57162
+ Risk to Spread ratio:8.73
+ Risk to Stick ratio:6.76
+ Units for the trade:14802.8
+
+NZD_USD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00019000000000002348
+ Spread pips:1.9
+ FS Risk:10.900000000000354
+ pipVal:0.0001
+ TP:0.6768
+ E:0.67724
+ SL:0.67814
+ Risk to Spread ratio:4.74
+ Risk to Stick ratio:6.09
+ Units for the trade:2293.6
+
+NZD_CAD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00031999999999998696
+ Spread pips:3.2
+ FS Risk:12.399999999999078
+ pipVal:0.0001
+ TP:0.84568
+ E:0.84618
+ SL:0.8471
+ Risk to Spread ratio:2.87
+ Risk to Stick ratio:5.72
+ Units for the trade:7949.8
+
+CN50_USD
+ MTS:0.1
+ AvailableUnits:Unknown
+ Spread:10
+ Spread pips:100
+ FS Risk:380
+ pipVal:0.1
+ TP:15567.3
+ E:15582.5
+ SL:15610.5
+ Risk to Spread ratio:2.8
+ Risk to Stick ratio:6.17
+ Units for the trade:0.7
+
+NZD_USD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00017000000000000348
+ Spread pips:1.7
+ FS Risk:11.500000000000954
+ pipVal:0.0001
+ TP:0.67834
+ E:0.6788
+ SL:0.67978
+ Risk to Spread ratio:5.76
+ Risk to Stick ratio:5.41
+ Units for the trade:70583.5
+
+AUD_NZD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00045999999999990493
+ Spread pips:4.6
+ FS Risk:12.899999999997913
+ pipVal:0.0001
+ TP:1.06836
+ E:1.06888
+ SL:1.06971
+ Risk to Spread ratio:1.8
+ Risk to Stick ratio:6.09
+ Units for the trade:319796.4
+
+CN50_USD
+ MTS:0.1
+ AvailableUnits:Unknown
+ Spread:10
+ Spread pips:100
+ FS Risk:470
+ pipVal:0.1
+ TP:15601.7
+ E:15620.5
+ SL:15657.5
+ Risk to Spread ratio:3.7
+ Risk to Stick ratio:6.61
+ Units for the trade:6
+
+GBP_USD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.000180000000000069
+ Spread pips:1.8
+ FS Risk:19.100000000000783
+ pipVal:0.0001
+ TP:1.36372
+ E:1.36448
+ SL:1.36621
+ Risk to Spread ratio:9.61
+ Risk to Stick ratio:6.23
+ Units for the trade:146895.7
+
+EU50_EUR
+ MTS:0.1
+ AvailableUnits:Unknown
+ Spread:1.4000000000005457
+ Spread pips:14
+ FS Risk:134.00000000000546
+ pipVal:0.1
+ TP:4287.5
+ E:4292.9
+ SL:4304.9
+ Risk to Spread ratio:8.57
+ Risk to Stick ratio:7.39
+ Units for the trade:1.5
+
+GBP_CAD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00021000000000004349
+ Spread pips:2.1
+ FS Risk:12.399999999999078
+ pipVal:0.0001
+ TP:1.69934
+ E:1.69884
+ SL:1.69781
+ Risk to Spread ratio:4.9
+ Risk to Stick ratio:3.76
+ Units for the trade:2514.3
+
+EUR_USD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00013999999999980695
+ Spread pips:1.4
+ FS Risk:5.299999999996974
+ pipVal:0.0001
+ TP:1.1321
+ E:1.13187
+ SL:1.13148
+ Risk to Spread ratio:2.79
+ Risk to Stick ratio:2.15
+ Units for the trade:17141.5
+

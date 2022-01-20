@@ -1,0 +1,16 @@
+NZD_USD
+ MTS:1
+ AvailableUnits:Unknown
+ Spread:0.00022999999999995246
+ Spread pips:2.3
+ FS Risk:10.999999999999899
+ pipVal:0.0001
+ TP:0.67688
+ E:0.67644
+ SL:0.67557
+ Risk to Spread ratio:3.78
+ Risk to Stick ratio:6.18
+ Units for the trade:2251.1
+NZD_USD|TP:0.67688|SL:0.67557|Pu:2251|Entry:0.67644
+Last Candle Creation time : 2022-01-20 1:15:00 AM| Current Time : 2022-01-20 1:20:29 AM
+***************TRADE PLACED***************
